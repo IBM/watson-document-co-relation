@@ -1,0 +1,81 @@
+{
+  "configuration": {
+    "coreference": {
+      "rules": [
+        {
+          "type": "chunking",
+          "chunk": [
+            {
+              "tag": "PRP",
+              "type": "coreference",
+              "pattern": "PRP:{<PRP>+}"
+            },
+            {
+              "tag": "NAME",
+              "type": "reference",
+              "pattern": "NAME:{<NNP>+}"
+            }
+          ]
+        }
+      ]
+    },
+    "relations": {
+      "rules": [
+        {
+          "type": "d_regex",
+          "d_regex": [
+            {
+              "tag": "BornAt",
+              "pattern": ".*(<Person:.*>).*(born|born at| born in).*(<Location:.*>).*"
+            }
+          ]
+        },
+        {
+          "type": "d_regex",
+          "d_regex": [
+            {
+              "tag": "ServedAt",
+              "pattern": ".*(<Person:.*>).*(served|worked).*(<Organization:.*>).*"
+            }
+          ]
+        },
+        {
+          "type": "d_regex",
+          "d_regex": [
+            {
+              "tag": "RepresentiveFor",
+              "pattern": ".*(<Person:.*>).*(represented|representing).*(<Location:.*>).*"
+            }
+          ]
+        },
+        {
+          "type": "d_regex",
+          "d_regex": [
+            {
+              "tag": "GraduatedFrom",
+              "pattern": ".*(<Person:.*>).*(graduated|graduating).*(<Location:.*>).*"
+            }
+          ]
+        },
+        {
+          "type": "d_regex",
+          "d_regex": [
+            {
+              "tag": "SpouseOf",
+              "pattern": ".*(<Person:.*>).*(married|spouse).*(<Person:.*>).*"
+            }
+          ]
+        },
+        {
+          "type": "d_regex",
+          "d_regex": [
+            {
+              "tag": "TaughtAt",
+              "pattern": ".*(<Person:.*>).*(taught|teaching).*(<Organization:.*>).*"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
