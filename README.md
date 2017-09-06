@@ -1,4 +1,4 @@
-# Correlation of text with Watson Natural Language Understanding and IBM Data Science experience
+# Correlation of text with Watson Natural Language Understanding and IBM Data Science experience(WORK IN PROGRESS)
 
 In this developer journey we will use Jupyter notebooks in IBM Data Science experience(DSX) to augment
 IBM Watson Natural Language Understanding API output through configurable mechanism for text correlation.
