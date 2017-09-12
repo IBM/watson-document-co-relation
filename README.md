@@ -1,7 +1,6 @@
-# Correlation of text with Watson Natural Language Understanding and IBM Data Science experience(WORK IN PROGRESS)
+# Correlation of text content across documents with Python NLTK and IBM Data Science experience(WORK IN PROGRESS)
 
-In this developer journey we will use Jupyter notebooks in IBM Data Science experience(DSX) to augment
-IBM Watson Natural Language Understanding API output through configurable mechanism for text correlation.
+In this developer journey we will use Jupyter notebooks in IBM Data Science experience(DSX) to correlate text content across documents with Python NLTK, IBM Watson Natural Language Understanding API output through a configurable mechanism.
 
 When the reader has completed this journey, they will understand how to:
 
@@ -9,11 +8,10 @@ When the reader has completed this journey, they will understand how to:
 * Use DSX Object Storage to access data and configuration files.
 * Use IBM Watson Natural Language Understanding API to extract metadata from documents in Jupyter notebooks.
 * Extract and format unstructured data using simplified Python functions.
-* Use a configuration file to build configurable and layered classification grammar.
-* Use the combination of grammatical classification and regex patterns from a configuration file to classify word token classes.
+* Use a configuration file to specify the co-reference and relations grammar.
 * Store the processed output JSON in DSX Object Storage.
 
-The intended audience for this journey is developers who want to learn a method for augumenting classification metadata obtained from Watson Natural Language Understanding API, in situations when there is a scarcity of historical data. The traditional approach of training a Text Analytics model yields less than expected results. The distinguishing factor of this journey is that it allows a configurable mechanism of text classification. It helps give a developer a head start in the case of text from a specialized domain, with no generally available English parser.
+The intended audience for this journey is developers who want to learn a method for correlation of text content across documents. The distinguishing factor of this journey is that it allows a configurable mechanism of text correlation. It helps give a developer a head start in the case of text from a specialized domain, with no generally available English parser.
 
 ![](doc/source/images/architecture.png)
 
