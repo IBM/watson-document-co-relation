@@ -43,8 +43,7 @@ described in detail below.
 1. [Add the data and configuraton file](#4-add-the-data-and-configuration-file)
 1. [Update the notebook with service credentials](#5-update-the-notebook-with-service-credentials)
 1. [Run the notebook](#6-run-the-notebook)
-1. [Download the results](#7-download-the-results)
-1. [Analyze the results](#8-analyze-the-results)
+1. [Analyze the results](#7-analyze-the-results)
 
 ## 1. Sign up for the Data Science Experience
 
@@ -157,18 +156,7 @@ There are several ways to execute the code cells in your notebook:
     panel. Here you can schedule your notebook to be executed once at some future
     time, or repeatedly at your specified interval.
 
-## 7. Download the results
-
-* To see the results, go to [DSX-ObjectStore](https://console.bluemix.net/dashboard/storage)
-* Click on the name of your object storage
-* Click on the Container with the name you gave your Notebook
-* Select `sample_text_classification.txt` file using select box to the left of the file listing
-* Click the `SelectAction` button and use the `Download File` drop down menu to download `sample_text_classification.txt` file.
-
-![](doc/source/images/objectstore_download_file.png)
-
-
-## 8. Analyze the results
+## 7. Analyze the results
 
 After running each cell of the notebook under Correlate text, the results will display. 
 
