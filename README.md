@@ -170,17 +170,17 @@ There are several ways to execute the code cells in your notebook:
 
 ## 8. Analyze the results
 
-After running each cell of the notebook under Classify text, the results will display. 
+After running each cell of the notebook under Correlate text, the results will display. 
 
-The configuration json controls the way the text is classified. The classification process is divided into stages - Base Tagging and Domain Tagging. The Base Tagging stage can be used to specify keywords based classification, regular expression based classification, and tagging based on chunking expressions. The Domain Tagging stage can be used to specify classification that is specific to the domain, in order to augment the results from Watson Natural Language Understanding.
+The configuration json controls the way the text is correlated. The correlation involves two aspects - co-referencing and relation determination. The configuration json contains the rules for co-referencing and grammar for determining relations.
 
-![](doc/source/images/text_classify_config.png)
+![](doc/source/images/correlate_text_config.png)
 
-We can modify the configuration json to add more keywords or add regular expressions. In this way, we can augment the text classification without any changes to the code.
-We can add more stages to the configuration json if required and enhance the text classification results with code modifications.
+We can modify the configuration json to add more rules for co-referencing or grammar for determining the relations. In this way, we can enhance the text correlation without any changes to the code.
 
-It can be seen from the classification results that the keywords and regular expressions specified in the configuration have been correctly classified
-in the analyzed text that is displayed.
+We can see from the `6. Visualize correlated text` in the notebook the correlations between the text in the two sample documents that we provided.
+
+![](doc/source/images/network_graph.png)
 
 # Troubleshooting
 
