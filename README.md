@@ -68,7 +68,7 @@ Click on `Add notebooks` (upper right) to create a notebook.
 * Select the `From URL` tab.
 * Enter a name for the notebook.
 * Optionally, enter a description for the notebook.
-* Enter this Notebook URL: https://github.com/IBM/watson-document-classifier/blob/master/notebooks/watson_document_classifier.ipynb
+* Enter this Notebook URL: https://github.com/IBM/watson-document-co-relation/blob/master/notebooks/watson_correlate_documents.ipynb
 * Click the `Create Notebook` button.
 
 ![](doc/source/images/create_notebook_from_url.png)
@@ -79,7 +79,8 @@ Click on `Add notebooks` (upper right) to create a notebook.
 
 * From the `My Projects > Default` page, Use `Find and Add Data` (look for the `10/01` icon)
 and its `Files` tab. 
-* Click `browse` and navigate to this repo `watson-document-classifier/data/sample_text.txt`
+* Click `browse` and navigate to this repo `watson-document-classifier/data/sample_text_1.txt`
+* Click `browse` and navigate to this repo `watson-document-classifier/data/sample_text_2.txt`
 * Click `browse` and navigate to this repo `watson-document-classifier/configuration/sample_config.txt`
 
 ![](doc/source/images/add_file.png)
@@ -93,7 +94,7 @@ If you use your own data and configuration files, you will need to update the va
 
 In the notebook, update the global variables in the cell following `2.3 Global Variables` section.
 
-Replace the `sampleTextFileName` with the name of your data file and `sampleConfigFileName` with your configuration file name.
+Replace the `sampleTextFileName1`,`sampleTextFileName2` with the name of your data file and `sampleConfigFileName` with your configuration file name.
 
 ![](doc/source/images/update_variables.png)
 
