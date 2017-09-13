@@ -1,6 +1,6 @@
 # Correlation of text content across documents with Python NLTK and IBM Data Science experience(WORK IN PROGRESS)
 
-In this developer journey we will use Jupyter notebooks in IBM Data Science experience(DSX) to correlate text content across documents with Python NLTK, IBM Watson Natural Language Understanding API output through a configurable mechanism.
+In this developer journey we will use Jupyter notebooks in IBM Data Science experience(DSX) to correlate text content across documents with Python NLTK toolkit, IBM Watson Natural Language Understanding API output through a configurable mechanism.
 
 When the reader has completed this journey, they will understand how to:
 
@@ -11,7 +11,7 @@ When the reader has completed this journey, they will understand how to:
 * Use a configuration file to specify the co-reference and relations grammar.
 * Store the processed output JSON in DSX Object Storage.
 
-The intended audience for this journey is developers who want to learn a method for correlation of text content across documents. The distinguishing factor of this journey is that it allows a configurable mechanism of text correlation. It helps give a developer a head start in the case of text from a specialized domain, with no generally available English parser.
+The intended audience for this journey is developers who want to learn a method for correlation of text content across documents. The distinguishing factor of this journey is that it allows a configurable mechanism of text correlation. 
 
 ![](doc/source/images/architecture.png)
 
@@ -160,7 +160,7 @@ There are several ways to execute the code cells in your notebook:
 
 After running each cell of the notebook under Correlate text, the results will display. 
 
-The configuration json controls the way the text is correlated. The correlation involves two aspects - co-referencing and relation determination. The configuration json contains the rules for co-referencing and grammar for determining relations.
+The configuration json controls the way the text is correlated. The correlation involves two aspects - co-referencing and relation determination. The configuration json contains the rules for co-referencing and grammar for determining relations. The output from Watson Natural Language Understanding and Python NLTK toolkit is processed based on the rules specified in the configuration json to come up with the correlation of content across documents. 
 
 ![](doc/source/images/correlate_text_config.png)
 
