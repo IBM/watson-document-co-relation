@@ -1,4 +1,4 @@
-# Correlation of text content across documents with Python NLTK and IBM Data Science experience(WORK IN PROGRESS)
+# Correlation of text content across documents using Watson Natural Language Understanding, Python NLTK and IBM Data Science experience
 
 In this developer journey we will use Jupyter notebooks in IBM Data Science experience(DSX) to correlate text content across documents with Python NLTK toolkit, IBM Watson Natural Language Understanding API output through a configurable mechanism.
 
