@@ -41,8 +41,7 @@ For more details, see the [MAINTAINERS](MAINTAINERS.md) page.
 
 ## Communication
 
-Please feel free to connect with us [here]
-(https://github.com/IBM/watson-document-co-relation/issues).
+Please feel free to connect with us [here](https://github.com/IBM/watson-document-co-relation/issues).
 
 ## Setup
 
