@@ -164,7 +164,7 @@ The configuration json controls the way the text is correlated. The correlation 
 
 ![](doc/source/images/correlate_text_config.png)
 
-We can modify the configuration json to add more rules and grammar for co-referencing determining the relations. In this way, we can enhance the text correlation without any changes to the code.
+We can modify the configuration json to add more rules and grammar for co-referencing and determining the relations. The text content correlation results can be enhanced without changes to the code.
 
 We can see from the `6. Visualize correlated text` in the notebook the correlations between the text in the two sample documents that we provided.
 
