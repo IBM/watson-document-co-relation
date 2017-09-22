@@ -30,7 +30,7 @@ The intended audience for this journey is developers who want to learn a method 
 
 # Watch the Video
 
-[![](http://img.youtube.com/vi/kC9adzu0dUA/0.jpg)](https://youtu.be/kC9adzu0dUA)
+[![](http://img.youtube.com/vi/Q5m-KtQPOls/0.jpg)](https://youtu.be/Q5m-KtQPOls)
 
 # Steps
 
