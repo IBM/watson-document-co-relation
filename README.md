@@ -160,6 +160,8 @@ There are several ways to execute the code cells in your notebook:
 
 After running each cell of the notebook under Correlate text, the results will display. 
 
+The document similarity score is computed using the cosine distance function in NLTK module. The document similarity results can be enhanced by adding to the stop words or text tags. The words added to stop words will be ignored for comparison. The word tags from watson text classifier or any custom tags added will be accounted for the comparison. 
+
 The configuration json controls the way the text is correlated. The correlation involves two aspects - co-referencing and relation determination. The configuration json contains the rules and grammar for co-referencing  and determining relations. The output from Watson Natural Language Understanding and Python NLTK toolkit is processed based on the rules and grammar specified in the configuration json to come up with the correlation of content across documents. 
 
 ![](doc/source/images/correlate_text_config.png)
