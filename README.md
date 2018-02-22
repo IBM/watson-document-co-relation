@@ -19,7 +19,7 @@ The intended audience for this journey is developers who want to learn a method 
 
 * [IBM Data Science Experience](https://www.ibm.com/bs-en/marketplace/data-science-experience): Analyze data using RStudio, Jupyter, and Python in a configured, collaborative environment that includes IBM value-adds, such as managed Spark.
 
-* [IBM Cloud Object Storage](https://console.ng.bluemix.net/catalog/services/object-storage/?cm_sp=dw-bluemix-_-code-_-devcenter): An IBM Cloud service that provides an unstructured cloud data store to build and deliver cost effective apps and services with high reliability and fast speed to market.
+* [IBM Cloud Object Storage](https://console.bluemix.net/catalog/infrastructure/cloud-object-storage): An IBM Cloud service that provides an unstructured cloud data store to build and deliver cost effective apps and services with high reliability and fast speed to market.
 
 * [Watson Natural Language Understanding](https://console.bluemix.net/catalog/services/natural-language-understanding/?cm_sp=dw-bluemix-_-code-_-devcenter): A IBM Cloud service that can analyze text to extract meta-data from content such as concepts, entities, keywords, categories, sentiment, emotion, relations, semantic roles, using natural language understanding.
 
@@ -48,7 +48,7 @@ described in detail below.
 ## 1. Sign up for the Data Science Experience
 
 Sign up for IBM's [Data Science Experience](http://datascience.ibm.com/). 
-By signing up for the Data Science Experience, two services will be created - ``Spark`` and ``ObjectStore`` in your IBM Cloud account. Choose the storage type as Object Storage (Swift API) for this code pattern.
+By signing up for the Data Science Experience, two services will be created - ``Spark`` and ``ObjectStore`` in your IBM Cloud account. 
 
 
 ## 2. Create IBM Cloud services
@@ -124,7 +124,7 @@ Update the `username` and `password` key values in the cell below `2.1 Add your 
 
 * Use `Find and Add Data` (look for the `10/01` icon) and its `Files` tab. You should see the file names uploaded earlier. Make sure your active cell is the empty one below `2.2 Add...`
 * Select `Insert to code` (below your sample_text.txt).
-* Click `Insert Crendentials` from drop down menu.
+* Click `Insert Credentials` from drop down menu.
 * Make sure the credentials are saved as `credentials_1`.
 
 ![](doc/source/images/objectstorage_credentials.png)
