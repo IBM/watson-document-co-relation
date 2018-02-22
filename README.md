@@ -11,7 +11,7 @@ When the reader has completed this journey, they will understand how to:
 * Use a configuration file to specify the co-reference and relations grammar.
 * Store the processed output JSON in DSX Object Storage.
 
-The intended audience for this journey is developers who want to learn a method for correlation of text content across documents. The distinguishing factor of this journey is that it allows a configurable mechanism of text correlation. 
+The intended audience for this journey is developers who want to learn a method for correlation of text content across documents. The distinguishing factor of this journey is that it allows a configurable mechanism of text correlation.
 
 ![](doc/source/images/architecture.png)
 
@@ -19,7 +19,7 @@ The intended audience for this journey is developers who want to learn a method 
 
 * [IBM Data Science Experience](https://www.ibm.com/bs-en/marketplace/data-science-experience): Analyze data using RStudio, Jupyter, and Python in a configured, collaborative environment that includes IBM value-adds, such as managed Spark.
 
-* [IBM Cloud Object Storage](https://console.ng.bluemix.net/catalog/services/object-storage/?cm_sp=dw-bluemix-_-code-_-devcenter): A Bluemix service that provides an unstructured cloud data store to build and deliver cost effective apps and services with high reliability and fast speed to market.
+* [IBM Cloud Object Storage](https://console.ng.bluemix.net/catalog/services/object-storage/?cm_sp=dw-bluemix-_-code-_-devcenter): An IBM Cloud service that provides an unstructured cloud data store to build and deliver cost effective apps and services with high reliability and fast speed to market.
 
 * [Watson Natural Language Understanding](https://console.bluemix.net/catalog/services/natural-language-understanding/?cm_sp=dw-bluemix-_-code-_-devcenter): A IBM Cloud service that can analyze text to extract meta-data from content such as concepts, entities, keywords, categories, sentiment, emotion, relations, semantic roles, using natural language understanding.
 
@@ -47,21 +47,23 @@ described in detail below.
 
 ## 1. Sign up for the Data Science Experience
 
-Sign up for IBM's [Data Science Experience](http://datascience.ibm.com/). By signing up for the Data Science Experience, two services: ``DSX-Spark`` and ``DSX-ObjectStore`` will be created in your IBM Cloud account.
+Sign up for IBM's [Data Science Experience](http://datascience.ibm.com/). 
+By signing up for the Data Science Experience, two services will be created - ``Spark`` and ``ObjectStore`` in your IBM Cloud account. Choose the storage type as Object Storage (Swift API) for this code pattern.
+
 
 ## 2. Create IBM Cloud services
 
 Create the following IBM Cloud service and name it wdc-NLU-service:
 
   * [**Watson Natural Language Understanding**](https://console.bluemix.net/catalog/services/natural-language-understanding)
-  
+
   ![](doc/source/images/bluemix_service_nlu.png)
 
 ## 3. Create the notebook
 
 In [Data Science Experience](http://datascience.ibm.com/):
 
-Use the menu on the top to select `Projects` and then `Default Project`. 
+Use the menu on the top to select `Projects` and then `Default Project`.
 Click on `Add notebooks` (upper right) to create a notebook.
 
 * Select the `From URL` tab.
@@ -77,7 +79,7 @@ Click on `Add notebooks` (upper right) to create a notebook.
 #### Add the data and configuration to the notebook
 
 * From the `My Projects > Default` page, Use `Find and Add Data` (look for the `10/01` icon)
-and its `Files` tab. 
+and its `Files` tab.
 * Click `browse` and navigate to this repo `watson-document-classifier/data/sample_text_1.txt`
 * Click `browse` and navigate to this repo `watson-document-classifier/data/sample_text_2.txt`
 * Click `browse` and navigate to this repo `watson-document-classifier/configuration/sample_config.txt`
@@ -117,11 +119,11 @@ Update the `username` and `password` key values in the cell below `2.1 Add your 
 ![](doc/source/images/watson_nlu_credentials.png)
 
 #### Add the Object Storage credentials to the notebook
-* Select the cell below `2.2 Add your service credentials for Object Storage` section in the notebook to update the credentials for Object Store. 
+* Select the cell below `2.2 Add your service credentials for Object Storage` section in the notebook to update the credentials for Object Store.
 * Delete the contents of the cell
 
-* Use `Find and Add Data` (look for the `10/01` icon) and its `Files` tab. You should see the file names uploaded earlier. Make sure your active cell is the empty one below `2.2 Add...`  
-* Select `Insert to code` (below your sample_text.txt). 
+* Use `Find and Add Data` (look for the `10/01` icon) and its `Files` tab. You should see the file names uploaded earlier. Make sure your active cell is the empty one below `2.2 Add...`
+* Select `Insert to code` (below your sample_text.txt).
 * Click `Insert Crendentials` from drop down menu.
 * Make sure the credentials are saved as `credentials_1`.
 
@@ -158,11 +160,11 @@ There are several ways to execute the code cells in your notebook:
 
 ## 7. Analyze the results
 
-After running each cell of the notebook under Correlate text, the results will display. 
+After running each cell of the notebook under Correlate text, the results will display.
 
-The document similarity score is computed using the cosine distance function in NLTK module. The document similarity results can be enhanced by adding to the stop words or text tags. The words added to stop words will be ignored for comparison. The word tags from watson text classifier or any custom tags added will be accounted for the comparison. 
+The document similarity score is computed using the cosine distance function in NLTK module. The document similarity results can be enhanced by adding to the stop words or text tags. The words added to stop words will be ignored for comparison. The word tags from watson text classifier or any custom tags added will be accounted for the comparison.
 
-The configuration json controls the way the text is correlated. The correlation involves two aspects - co-referencing and relation determination. The configuration json contains the rules and grammar for co-referencing  and determining relations. The output from Watson Natural Language Understanding and Python NLTK toolkit is processed based on the rules and grammar specified in the configuration json to come up with the correlation of content across documents. 
+The configuration json controls the way the text is correlated. The correlation involves two aspects - co-referencing and relation determination. The configuration json contains the rules and grammar for co-referencing  and determining relations. The output from Watson Natural Language Understanding and Python NLTK toolkit is processed based on the rules and grammar specified in the configuration json to come up with the correlation of content across documents.
 
 ![](doc/source/images/correlate_text_config.png)
 
