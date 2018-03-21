@@ -1,15 +1,15 @@
 # Correlation of text content across documents using Watson Natural Language Understanding, Python NLTK and IBM Data Science experience
 
-In this developer journey we will use Jupyter notebooks in IBM Data Science experience(DSX) to correlate text content across documents with Python NLTK toolkit and IBM Watson Natural Language Understanding. The correlation algorithm is driven by an input configuration json that contains the rules and grammar for building the relations. The configuration json document can be modified to obtain better correlation results between text content across documents.
+In this developer journey we will use Jupyter notebooks in IBM Data Science experience(Watson Studio) to correlate text content across documents with Python NLTK toolkit and IBM Watson Natural Language Understanding. The correlation algorithm is driven by an input configuration json that contains the rules and grammar for building the relations. The configuration json document can be modified to obtain better correlation results between text content across documents.
 
 When the reader has completed this journey, they will understand how to:
 
-* Create and run a Jupyter notebook in DSX.
-* Use DSX Object Storage to access data and configuration files.
+* Create and run a Jupyter notebook in Watson Studio.
+* Use Watson Studio Object Storage to access data and configuration files.
 * Use IBM Watson Natural Language Understanding API to extract metadata from documents in Jupyter notebooks.
 * Extract and format unstructured data using simplified Python functions.
 * Use a configuration file to specify the co-reference and relations grammar.
-* Store the processed output JSON in DSX Object Storage.
+* Store the processed output JSON in Watson Studio Object Storage.
 
 The intended audience for this journey is developers who want to learn a method for correlation of text content across documents. The distinguishing factor of this journey is that it allows a configurable mechanism of text correlation.
 
@@ -17,7 +17,7 @@ The intended audience for this journey is developers who want to learn a method 
 
 ## Included components
 
-* [IBM Data Science Experience](https://www.ibm.com/bs-en/marketplace/data-science-experience): Analyze data using RStudio, Jupyter, and Python in a configured, collaborative environment that includes IBM value-adds, such as managed Spark.
+* [IBM Watson Studio](https://www.ibm.com/bs-en/marketplace/data-science-experience): Analyze data using RStudio, Jupyter, and Python in a configured, collaborative environment that includes IBM value-adds, such as managed Spark.
 
 * [IBM Cloud Object Storage](https://console.bluemix.net/catalog/infrastructure/cloud-object-storage): An IBM Cloud service that provides an unstructured cloud data store to build and deliver cost effective apps and services with high reliability and fast speed to market.
 
@@ -37,7 +37,7 @@ The intended audience for this journey is developers who want to learn a method 
 Follow these steps to setup and run this developer journey. The steps are
 described in detail below.
 
-1. [Sign up for the Data Science Experience](#1-sign-up-for-the-data-science-experience)
+1. [Sign up for the Watson Studio](#1-sign-up-for-the-data-science-experience)
 1. [Create IBM Cloud services](#2-create-ibm-cloud-services)
 1. [Create the notebook](#3-create-the-notebook)
 1. [Add the data and configuraton file](#4-add-the-data-and-configuration-file)
@@ -45,10 +45,10 @@ described in detail below.
 1. [Run the notebook](#6-run-the-notebook)
 1. [Analyze the results](#7-analyze-the-results)
 
-## 1. Sign up for the Data Science Experience
+## 1. Sign up for the Watson Studio
 
-Sign up for IBM's [Data Science Experience](http://datascience.ibm.com/). 
-By signing up for the Data Science Experience, two services will be created - ``Spark`` and ``ObjectStore`` in your IBM Cloud account. 
+Sign up for IBM's [Watson Studio](http://datascience.ibm.com/). 
+By signing up for the Watson Studio, two services will be created - ``Spark`` and ``ObjectStore`` in your IBM Cloud account. 
 
 
 ## 2. Create IBM Cloud services
@@ -61,7 +61,7 @@ Create the following IBM Cloud service and name it wdc-NLU-service:
 
 ## 3. Create the notebook
 
-In [Data Science Experience](http://datascience.ibm.com/):
+In [Watson Studio](http://datascience.ibm.com/):
 
 Use the menu on the top to select `Projects` and then `Default Project`.
 Click on `Add notebooks` (upper right) to create a notebook.
