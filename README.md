@@ -5,11 +5,11 @@ In this developer journey we will use Jupyter notebooks in IBM Data Science expe
 When the reader has completed this journey, they will understand how to:
 
 * Create and run a Jupyter notebook in Watson Studio.
-* Use Watson Studio Object Storage to access data and configuration files.
+* Use Object Storage to access data and configuration files.
 * Use IBM Watson Natural Language Understanding API to extract metadata from documents in Jupyter notebooks.
 * Extract and format unstructured data using simplified Python functions.
 * Use a configuration file to specify the co-reference and relations grammar.
-* Store the processed output JSON in Watson Studio Object Storage.
+* Store the processed output JSON in Object Storage.
 
 The intended audience for this journey is developers who want to learn a method for correlation of text content across documents. The distinguishing factor of this journey is that it allows a configurable mechanism of text correlation.
 
