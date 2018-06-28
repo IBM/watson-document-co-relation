@@ -34,8 +34,8 @@
           "type": "d_regex",
           "d_regex": [
             {
-              "tag": "ServedAt",
-              "pattern": ".*(<Person:.*?>).*(served|worked).*(<Organization:.*?>).*"
+              "tag": "TaughtAt",
+              "pattern": ".*(<Person:.*?>).*(taught at|taught in).*(<Organization:.*?>).*"
             }
           ]
         },
@@ -43,8 +43,8 @@
           "type": "d_regex",
           "d_regex": [
             {
-              "tag": "RepresentiveFor",
-              "pattern": ".*(<Person:.*?>).*(represented|representing).*(<Location:.*?>).*"
+              "tag": "SonOF",
+              "pattern": ".*(<Person:.*?>).*(son of).*(<Person:.*?>).*"
             }
           ]
         },
@@ -52,8 +52,8 @@
           "type": "d_regex",
           "d_regex": [
             {
-              "tag": "GraduatedFrom",
-              "pattern": ".*(<Person:.*?>).*(graduated|graduating).*(<Location:.*?>).*"
+              "tag": "WorkedFor",
+              "pattern": ".*(<Person:.*?>).*(worked for).*(<Organization:.*?>).*"
             }
           ]
         },
@@ -70,8 +70,8 @@
           "type": "d_regex",
           "d_regex": [
             {
-              "tag": "TaughtAt",
-              "pattern": ".*(<Person:.*?>).*(taught|teaching).*(<Organization:.*?>).*"
+              "tag": "StudiedAt",
+              "pattern": ".*(<Person:.*?>).*(student of|studied in).*(<Organization:.*?>).*"
             }
           ]
         }
