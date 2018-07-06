@@ -11,7 +11,7 @@ In this pattern, the Watson Natural Language output is augmented with the rules 
 
 - **Text similarity between text content across documents**
 
-There are known entities that could have a text description associated with them. There can be a need to correlate the entities based on the similarity of the text desacription. Take the example of software development artifacts. We might want to correlate a `defect` to a `requirement`. The similarity of the `defect` description and `requirement` description can be used to correlate the two artifacts or entities.
+There are known entities that could have a text description associated with them. There can be a need to correlate the entities based on the similarity of the text description. Take the example of software development artifacts. We might want to correlate a `defect` to a `requirement`. The similarity of the `defect` description and `requirement` description can be used to correlate the two artifacts or entities.
 
 > Note: The code and configuration provided in this repository can be modified to build a solution for the above scenarios. 
 
