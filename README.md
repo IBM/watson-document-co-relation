@@ -176,6 +176,16 @@ We can see from the `6. Visualize correlated text` in the notebook the correlati
 
 ![](doc/source/images/network_graph.png)
 
+# Other scenarios and usecases for which a solution can be built using the above methodology
+
+[See USECASES.md.](USECASES.md)
+
+# Related links
+
+[Mine insights from software development artifacts](https://developer.ibm.com/code/patterns/mine-insights-from-software-development-artifacts/)
+
+[Get insights on personal finance data](https://developer.ibm.com/code/?p=29292&preview=true)
+
 # Troubleshooting
 
 [See DEBUGGING.md.](DEBUGGING.md)
