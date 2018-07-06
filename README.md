@@ -82,9 +82,9 @@ Create the following IBM Cloud service and name it wdc-NLU-service:
 
 * From the `My Projects > Default` page, Use `Find and Add Data` (look for the `10/01` icon)
 and its `Files` tab.
-* Click `browse` and navigate to this repo `watson-document-classifier/data/sample_text_1.txt`
-* Click `browse` and navigate to this repo `watson-document-classifier/data/sample_text_2.txt`
-* Click `browse` and navigate to this repo `watson-document-classifier/configuration/sample_config.txt`
+* Click `browse` and navigate to this repo `watson-document-co-relation/data/sample_text_1.txt`
+* Click `browse` and navigate to this repo `watson-document-co-relation/data/sample_text_2.txt`
+* Click `browse` and navigate to this repo `watson-document-co-relation/configuration/sample_config.txt`
 
 ![](doc/source/images/add_file.png)
 
@@ -172,9 +172,21 @@ The configuration json controls the way the text is correlated. The correlation 
 
 We can modify the configuration json to add more rules and grammar for co-referencing and determining the relations. The text content correlation results can be enhanced without changes to the code.
 
-We can see from the `6. Visualize correlated text` in the notebook the correlations between the text in the two sample documents that we provided.
+We can see from the `6. Visualize correlated text` in the notebook the correlations between the text in the two sample documents that we provided. The output seen below is the augmented output from Watson Natural Language Understanding with the relationships extracted from the rules methodology explained in this pattern.
 
 ![](doc/source/images/network_graph.png)
+
+In addition to it the similarity between the two sample texts that we provided is computed in the notebook section `5. Correlate text`. The similarity score between the two sample text is seen as 0.790569415042.
+
+# Other scenarios and usecases for which a solution can be built using the above methodology
+
+[See USECASES.md.](USECASES.md)
+
+# Related links
+
+[Mine insights from software development artifacts](https://developer.ibm.com/code/patterns/mine-insights-from-software-development-artifacts/)
+
+[Get insights on personal finance data](https://developer.ibm.com/code/?p=29292&preview=true)
 
 # Troubleshooting
 

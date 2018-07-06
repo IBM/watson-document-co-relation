@@ -1,1 +1,1 @@
-John is a student of Boston University. He worked for Microsoft. He is the son of Rose. 
+John is a student at Boston University. He worked for Microsoft. He is the son of Rose.
