@@ -82,9 +82,9 @@ Create the following IBM Cloud service and name it wdc-NLU-service:
 
 * From the `My Projects > Default` page, Use `Find and Add Data` (look for the `10/01` icon)
 and its `Files` tab.
-* Click `browse` and navigate to this repo `watson-document-classifier/data/sample_text_1.txt`
-* Click `browse` and navigate to this repo `watson-document-classifier/data/sample_text_2.txt`
-* Click `browse` and navigate to this repo `watson-document-classifier/configuration/sample_config.txt`
+* Click `browse` and navigate to this repo `watson-document-co-relation/data/sample_text_1.txt`
+* Click `browse` and navigate to this repo `watson-document-co-relation/data/sample_text_2.txt`
+* Click `browse` and navigate to this repo `watson-document-co-relation/configuration/sample_config.txt`
 
 ![](doc/source/images/add_file.png)
 
