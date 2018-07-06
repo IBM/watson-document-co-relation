@@ -172,9 +172,11 @@ The configuration json controls the way the text is correlated. The correlation 
 
 We can modify the configuration json to add more rules and grammar for co-referencing and determining the relations. The text content correlation results can be enhanced without changes to the code.
 
-We can see from the `6. Visualize correlated text` in the notebook the correlations between the text in the two sample documents that we provided.
+We can see from the `6. Visualize correlated text` in the notebook the correlations between the text in the two sample documents that we provided. The output seen below is the augmented output from Watson Natural Language Understanding with the relationships extracted from the rules methodology explained in this pattern.
 
 ![](doc/source/images/network_graph.png)
+
+In addition to it the similarity between the two sample texts that we provided is computed in the notebook section `5. Correlate text`. The similarity score between the two sample text is seen as 0.790569415042.
 
 # Other scenarios and usecases for which a solution can be built using the above methodology
 
