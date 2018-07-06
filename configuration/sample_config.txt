@@ -25,7 +25,7 @@
           "type": "d_regex",
           "d_regex": [
             {
-              "tag": "BornAt",
+              "tag": "bornAt",
               "pattern": ".*(<Person:.*?>).*(born|born at| born in).*(<Location:.*?>).*"
             }
           ]
@@ -34,7 +34,7 @@
           "type": "d_regex",
           "d_regex": [
             {
-              "tag": "TaughtAt",
+              "tag": "taughtAt",
               "pattern": ".*(<Person:.*?>).*(taught at|taught in).*(<Organization:.*?>).*"
             }
           ]
@@ -43,7 +43,7 @@
           "type": "d_regex",
           "d_regex": [
             {
-              "tag": "SonOF",
+              "tag": "sonOf",
               "pattern": ".*(<Person:.*?>).*(son of).*(<Person:.*?>).*"
             }
           ]
@@ -52,7 +52,7 @@
           "type": "d_regex",
           "d_regex": [
             {
-              "tag": "WorkedFor",
+              "tag": "workedFor",
               "pattern": ".*(<Person:.*?>).*(worked for).*(<Organization:.*?>).*"
             }
           ]
@@ -61,7 +61,7 @@
           "type": "d_regex",
           "d_regex": [
             {
-              "tag": "SpouseOf",
+              "tag": "spouseOf",
               "pattern": ".*(<Person:.*?>).*(married|spouse).*(<Person:.*?>).*"
             }
           ]
@@ -70,7 +70,7 @@
           "type": "d_regex",
           "d_regex": [
             {
-              "tag": "StudiedAt",
+              "tag": "educatedAt",
               "pattern": ".*(<Person:.*?>).*(student of|studied in).*(<Organization:.*?>).*"
             }
           ]
