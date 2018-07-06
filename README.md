@@ -104,7 +104,7 @@ Replace the `sampleTextFileName1`,`sampleTextFileName2` with the name of your da
 ## 5. Update the notebook with service credentials
 
 #### Add the Watson Natural Language Understanding credentials to the notebook
-Select the cell below `2.1 Add your service credentials from IBM Cloud for the Watson services` section in the notebook to update the credentials for Watson Natural Langauage Understanding. 
+Select the cell below `2.1 Add your service credentials from IBM Cloud for the Watson services` section in the notebook to update the credentials for Watson Natural Language Understanding. 
 
 Open the Watson Natural Language Understanding service in your [IBM Cloud Dashboard](https://console.bluemix.net/dashboard/services) and click on your service, which you should have named `wdc-NLU-service`.
 
@@ -178,7 +178,7 @@ We can see from the `6. Visualize correlated text` in the notebook the correlati
 
 In addition to it the similarity between the two sample texts that we provided is computed in the notebook section `5. Correlate text`. The similarity score between the two sample text is seen as 0.790569415042.
 
-# Other scenarios and usecases for which a solution can be built using the above methodology
+# Other scenarios and use cases for which a solution can be built using the above methodology
 
 [See USECASES.md.](USECASES.md)
 
